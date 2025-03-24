@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="/all_css/style.css">
+</head>
+<body>
+    <h1>This is our contact page</h1>
+
+    <form action="/">
+
+        <label for="firstName">Enter Your First Name</label>
+        <input type="text" id="firstName" placeholder="Enter Your First Name" name="firstName" required>
+        <br>
+
+        <label for="lastName">Enter Your Last Name</label>
+        <input type="text" id="lastName" placeholder="Enter Your Last Name" name="lastName" required>
+        <br>
+
+        <label for="email">Enter Your Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
+        <br>
+
+        <label for="password">Enter Your Password</label>
+        <input type="password" id="password" placeholder="Enter Your Password" name="password" required>
+        <br>
+
+        <label for="gender">Select Your Gender</label>
+        <select name="gender">
+            <option value="0">Select Option Here</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="2">Prefer not to say</option>
+        </select>
+        <br>
+
+        <label for="favoriteFood">Select Your Favorite Food</label>
+        <br>
+        <input type="checkbox" id="food1" name="favorite-food" value="1">
+        <label for="food1">Beans</label>
+        <br>
+        <input type="checkbox" id="food2" name="favorite-food" value="2">
+        <label for="food2">Rice</label>
+        <br>
+        <input type="checkbox" id="food3" name="favorite-food" value="3">
+        <label for="food3">Spaghetti</label>
+        <br>
+        <input type="checkbox" id="food4" name="favorite-food" value="4">
+        <label for="food4">Soup</label>
+        <br>
+        <input type="checkbox" id="food5" name="favorite-food" value="5">
+        <label for="food5">Pizza</label>
+        
+        <!-- <select name="favorite-food">
+            <option value="0">Select Option Here</option>
+            <option value="1">Beans</option>
+            <option value="2">Rice</option>
+            <option value="3">Spaghetti</option>
+            <option value="4">Soup</option>
+            <option value="5">Pizza</option>
+        </select> -->
+        <br>
+
+        <label for="certificate">Select Your Certificate</label>
+        <select name="certificate-option">
+            <option value="0">Pick an option</option>
+            <option value="1">FSLC</option>
+            <option value="2">O'level</option>
+            <option value="3">BSC</option>
+        </select>
+            <br>
+        <label for="phoneNumber">Enter Your Phone Number</label>
+        <input type="tel" id="phoneNumber" placeholder="Enter Your Phone Number" name="phoneNumber" required>
+        <br>
+
+        <textarea name="aboutYourself" id="aboutYourself" placeholder="Tell us about Yourself" cols="30" rows="10"></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
